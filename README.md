@@ -1,2 +1,7 @@
-# odin-recipes
-Recipes page for The Odin Project.
+# Odin Recipes
+Project is meant to practice:
+- basic HTML and CSS
+- working with text
+- lists
+- links
+- images
