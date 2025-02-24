@@ -71,7 +71,16 @@ h1 {
 }
 
 .recipe-desc p, .recipe-desc li {
-    margin: 10px;
     font-size: 1.1rem;
     text-align: justify;
 }
+
+@media only screen and (max-width: 600px) {
+    .title-card img {
+        width: 400px;
+    }
+
+    .recipe-desc {
+        width: 90%;
+    }
+  }
