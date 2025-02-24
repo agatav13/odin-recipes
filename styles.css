@@ -1,6 +1,5 @@
 body {
     background-color: oldlace;
-    margin: 0;
 }
 
 h1 {
@@ -34,4 +33,44 @@ h1 {
 
 .recipes-container img {
     width: 250px;
+}
+
+.title-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-card a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    transition: all .3s ease-in-out;
+}
+
+.title-card a:hover {
+    scale: 1.03;
+}
+
+.title-card img {
+    width: 500px;
+    padding: 25px 0;
+}
+
+.recipe-desc {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-desc h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.recipe-desc p, .recipe-desc li {
+    margin: 10px;
+    font-size: 1.1rem;
+    text-align: justify;
 }
