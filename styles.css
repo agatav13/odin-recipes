@@ -1,0 +1,37 @@
+body {
+    background-color: oldlace;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.recipes-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px 0;
+}
+
+.recipes-container a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    transition: all .3s ease-in-out;
+}
+
+.recipes-container a:hover {
+    scale: 1.03;
+}
+
+.recipes-container img {
+    width: 250px;
+}
